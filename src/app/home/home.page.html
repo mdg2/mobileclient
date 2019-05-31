@@ -1,0 +1,11 @@
+<ion-header id="header">
+  CareerPlace
+</ion-header>
+
+<ion-content>
+  <ion-searchbar 
+  placeholder= "Search Jobtitles" 
+  [(ngModel)] = "searchTerm"
+  (ngModelChange) = "onInput($event)" 
+  ></ion-searchbar>
+</ion-content>
